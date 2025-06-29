@@ -4,19 +4,7 @@
 
 This project presents a MATLAB-based GUI tool for basic lung cancer detection from CT scan images. It demonstrates fundamental steps in medical image processing and segmentation, designed especially for educational and research applications.
 
-Using simple preprocessing techniques and morphological operations, the GUI provides a visual pipeline to:
-
-- Import and display lung CT images
-- Apply median filtering to reduce noise
-- Perform edge detection using Sobel operators
-- Segment lung regions using K-means clustering
-- Identify and highlight potential cancerous regions based on area and solidity metrics
-
----
-
-## 🖼️ GUI Preview
-
-<img src="Gui_preview.jpeg" alt="Lung Cancer Detection GUI" width="700"/>
+Using simple preprocessing techniques and morphological operations, the GUI provides a visual pipeline.
 
 ---
 
@@ -31,8 +19,15 @@ Using simple preprocessing techniques and morphological operations, the GUI prov
 
 ---
 
+## 🖼️ GUI Preview
+
+<img src="Gui_preview.jpeg" alt="Lung Cancer Detection GUI" width="700"/>
+
+---
+
 ## 📁 Folder Structure
 lung-cancer-detection-gui/
+
 ├── lung_cancer_detection.m # Main MATLAB GUI script
 
 ├── lung_cancer_detection.fig # GUIDE-generated figure file
@@ -44,7 +39,7 @@ lung-cancer-detection-gui/
 
 ## 🛠️ Requirements
 
-- MATLAB R2015 or later (recommended: R2020 or newer)
+- MATLAB R2020 or newer
 - Image Processing Toolbox
 - GUIDE (for GUI development, deprecated in newer versions but still supported)
 
@@ -60,12 +55,12 @@ lung-cancer-detection-gui/
 
 ---
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 This tool is a simplified prototype intended only for educational and research purposes. It is not validated for clinical diagnosis or real-world medical applications. Always consult qualified medical professionals for healthcare decisions.
 
 ---
 
-📚 References
+## 📚 References
 Image Processing Toolbox – MathWorks
 
 Basic image segmentation and morphology techniques
@@ -74,7 +69,7 @@ Sample datasets (optional for testing)
 
 ---
 
-🧠 Future Improvements 
+## 🧠 Future Improvements 
 Integrate deep learning models (CNNs) for improved detection accuracy.
 
 Support DICOM image formats commonly used in clinical imaging.
