@@ -34,7 +34,9 @@ Using simple preprocessing techniques and morphological operations, the GUI prov
 ## 📁 Folder Structure
 lung-cancer-detection-gui/
 ├── lung_cancer_detection.m # Main MATLAB GUI script
+
 ├── lung_cancer_detection.fig # GUIDE-generated figure file
+
 ├── README.md # Documentation
 
 
@@ -61,6 +63,8 @@ lung-cancer-detection-gui/
 ⚠️ Disclaimer
 This tool is a simplified prototype intended only for educational and research purposes. It is not validated for clinical diagnosis or real-world medical applications. Always consult qualified medical professionals for healthcare decisions.
 
+---
+
 📚 References
 Image Processing Toolbox – MathWorks
 
@@ -68,8 +72,9 @@ Basic image segmentation and morphology techniques
 
 Sample datasets (optional for testing)
 
+---
 
-🧠 Future Improvements (Optional)
+🧠 Future Improvements 
 Integrate deep learning models (CNNs) for improved detection accuracy.
 
 Support DICOM image formats commonly used in clinical imaging.
